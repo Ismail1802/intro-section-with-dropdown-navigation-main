@@ -195,7 +195,6 @@ section {
     justify-content: center;
     align-items: flex-end;
     margin-top: 2rem;
-    height: 75vh;
   }
   .image_cont {
     flex-basis: 40%;
