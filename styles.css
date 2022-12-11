@@ -151,7 +151,7 @@ nav ul li {
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.699);
-  height: 120vh;
+  height: 100vh;
 }
 .features-menu,
 .company-menu {
@@ -194,6 +194,7 @@ section {
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
+    margin-top: 2rem;
     height: 75vh;
   }
   .image_cont {
