@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <header>
+      <div class="header_cont">
+        <div class="header_img">
+          <img src="./images/logo.svg" alt="" />
+        </div>
+        <div class="black">
+          <nav class="go">
+            <img id="close-menu" src="./images/icon-close-menu.svg" alt="" />
+            <ul>
+              <div class="features-div">
+                <li>Features</li>
+                <img
+                  id="features-button"
+                  src="./images/icon-arrow-down.svg"
+                  alt=""
+                />
+              </div>
+              <div class="features-menu">
+                <ul>
+                  <li>
+                    <img src="./images/icon-todo.svg" alt="" />
+                    Todo list
+                  </li>
+                  <li>
+                    <img src="./images/icon-calendar.svg" alt="" /> Calendar
+                  </li>
+                  <li>
+                    <img src="./images/icon-reminders.svg" alt="" /> Reminders
+                  </li>
+                  <li>
+                    <img src="./images/icon-planning.svg" alt="" /> Planning
+                  </li>
+                </ul>
+              </div>
+              <div class="company-div">
+                <li>Company</li>
+                <img
+                  id="company-button"
+                  src="./images/icon-arrow-down.svg"
+                  alt=""
+                />
+              </div>
+              <div class="company-menu">
+                <ul>
+                  <li>History</li>
+                  <li>Our Team</li>
+                  <li>Blog</li>
+                </ul>
+              </div>
+              <li>Careers</li>
+              <li>About</li>
+            </ul>
+            <div class="buttons">
+              <button>Login</button>
+              <button>Register</button>
+            </div>
+          </nav>
+        </div>
+        <img id="menu" src="./images/icon-menu.svg" alt="" />
+      </div>
+    </header>
+
+    <main>
+      <div class="image_cont">
+        <picture>
+          <source
+            media="(min-width:1024px)"
+            srcset="./images/image-hero-desktop.png"
+          />
+          <img src="./images/image-hero-mobile.png" alt="" />
+        </picture>
+        <!-- <img src="./images/image-hero-mobile.png" alt="" /> -->
+      </div>
+      <section>
+        <div class="hero_cont">
+          <h1>
+            Make <br />
+            remote work
+          </h1>
+          <p>
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <a target="_blank" href="https://rt.pornhub.com/"
+            ><button class="learn">Learn more</button></a
+          >
+          <div class="links">
+            <img src="./images/client-databiz.svg" alt="" />
+            <img class="audio" src="./images/client-audiophile.svg" alt="" />
+            <img src="./images/client-meet.svg" alt="" />
+            <img src="./images/client-maker.svg" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
