@@ -75,12 +75,14 @@ nav {
   color: hsl(0, 0%, 41%);
   transition: all 0.3s ease-in-out;
   transform: translate(100%);
+  /* margin-right: -300px; */
 }
 nav ul li {
   cursor: pointer;
 }
 .shownav {
   transform: translate(0);
+  /* margin: 0; */
 }
 #close-menu {
   position: absolute;
@@ -105,6 +107,7 @@ nav ul li {
   font-family: "Epilogue", sans-serif;
   width: 150px;
   font-size: 1rem;
+  color: black;
   cursor: pointer;
 }
 .buttons button:first-child {
@@ -148,6 +151,7 @@ nav ul li {
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.699);
+  height: 120vh;
 }
 .features-menu,
 .company-menu {
@@ -158,7 +162,9 @@ nav ul li {
   display: block;
   animation: growDown 300ms ease-in-out forwards;
 }
-
+.scroll {
+  overflow: hidden;
+}
 .arrow-active {
   transform: rotate(180deg);
 }

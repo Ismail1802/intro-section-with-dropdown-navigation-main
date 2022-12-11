@@ -6,6 +6,7 @@ const cMenu = document.querySelector(".company-menu");
 const closeMenuButton = document.getElementById("close-menu");
 const navBar = document.querySelector(".go");
 const black = document.querySelector(".black");
+const body = document.getElementById("body");
 
 fButton.addEventListener("click", () => {
   fMenu.classList.toggle("show");
@@ -20,9 +21,15 @@ cButton.addEventListener("click", () => {
 menuButton.addEventListener("click", () => {
   navBar.classList.toggle("shownav");
   black.classList.toggle("container");
+  body.classList.toggle("scroll");
 });
 
 closeMenuButton.addEventListener("click", () => {
   navBar.classList.toggle("shownav");
-  black.classList.toggle("container");
+  black.classList.remove("container");
+  body.classList.toggle("scroll");
+});
+
+window.addEventListener("resize", function () {
+  black.classList.remove("container");
 });
