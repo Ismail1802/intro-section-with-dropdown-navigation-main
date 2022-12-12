@@ -21,13 +21,13 @@ cButton.addEventListener("click", () => {
 menuButton.addEventListener("click", () => {
   navBar.classList.toggle("shownav");
   black.classList.toggle("container");
-  body.classList.toggle("scroll");
+  body.classList.add("scroll");
 });
 
 closeMenuButton.addEventListener("click", () => {
   navBar.classList.toggle("shownav");
   black.classList.remove("container");
-  body.classList.toggle("scroll");
+  body.classList.remove("scroll");
 });
 
 window.addEventListener("resize", function () {

@@ -157,6 +157,9 @@ nav ul li {
 .company-menu {
   display: none;
 }
+nav {
+  overflow: scroll;
+}
 
 .show {
   display: block;
