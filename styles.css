@@ -193,6 +193,9 @@ section {
   }
 }
 @media (min-width: 1024px) {
+  nav {
+    overflow: unset;
+  }
   main {
     flex-direction: row;
     justify-content: center;
